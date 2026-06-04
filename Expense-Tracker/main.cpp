@@ -3,26 +3,36 @@ using namespace std;
 
 int main() {
     int choice;
+    double totalExpense = 0;
+    double amount;
 
     do {
         cout << "\n===== Expense Tracker =====\n";
         cout << "1. Add Expense\n";
-        cout << "2. View Expenses\n";
+        cout << "2. View Total Expense\n";
         cout << "3. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
 
         switch (choice) {
             case 1:
-                cout << "Add Expense feature coming soon.\n";
+                cout << "Enter expense amount: Rs. ";
+                cin >> amount;
+
+                if (amount > 0) {
+                    totalExpense += amount;
+                    cout << "Expense added successfully.\n";
+                } else {
+                    cout << "Invalid amount. Please enter a positive value.\n";
+                }
                 break;
 
             case 2:
-                cout << "View Expenses feature coming soon.\n";
+                cout << "Total Expense: Rs. " << totalExpense << endl;
                 break;
 
             case 3:
-                cout << "Thank you for using Expense Tracker!\n";
+                cout << "Thank you for using Expense Tracker.\n";
                 break;
 
             default:
