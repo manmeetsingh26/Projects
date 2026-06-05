@@ -1,8 +1,8 @@
 # 💰 Expense Tracker
 
-A C++ based Expense Tracker application developed to help users manage daily expenses, monitor spending habits, and improve financial awareness.
+A C++ based Expense Tracker application developed to help users record expenses, organize spending categories, and maintain expense records using file handling.
 
-This project is part of my software development learning journey and focuses on applying core programming concepts such as arrays, strings, loops, conditional statements, and data management.
+This project is part of my software development learning journey and focuses on applying programming concepts, data management, and project development practices.
 
 ---
 
@@ -10,12 +10,12 @@ This project is part of my software development learning journey and focuses on 
 
 ### ✅ Add Expense
 
-- Record daily expenses quickly.
+- Record daily expenses.
 - Input validation for positive amounts.
 
 ### ✅ Expense Categories
 
-Users can categorize expenses into:
+Users can organize expenses into:
 
 - 🍔 Food
 - 🚗 Travel
@@ -24,12 +24,12 @@ Users can categorize expenses into:
 
 ### ✅ View Total Expense
 
-- Calculates the total amount spent.
-- Updates automatically whenever a new expense is added.
+- Calculates and displays the total expenses recorded during the session.
 
 ### ✅ Expense History
 
-Displays all recorded expenses with their categories.
+- Displays all expenses added during the current session.
+- Shows both amount and category.
 
 Example:
 
@@ -39,9 +39,15 @@ Example:
 3. Rs. 1200 - Shopping
 ```
 
+### ✅ File Handling
+
+- Saves expense records to a file.
+- Allows viewing previously saved expenses.
+- Data remains available even after the program closes.
+
 ### ✅ Menu Driven Interface
 
-Simple and user-friendly console interface.
+Simple and user-friendly console navigation.
 
 ---
 
@@ -53,7 +59,7 @@ Simple and user-friendly console interface.
 - Loops
 - Conditional Statements
 - Switch Case
-- Basic Data Management
+- File Handling (fstream)
 
 ---
 
@@ -64,7 +70,8 @@ Expense-Tracker
 │
 ├── main.cpp
 ├── README.md
-└── ProjectPlan.md
+├── ProjectPlan.md
+└── expenses.txt
 ```
 
 ---
@@ -76,12 +83,13 @@ Expense-Tracker
 | Project Planning | ✅ Completed |
 | Basic Menu | ✅ Completed |
 | Add Expense | ✅ Completed |
+| Expense Categories | ✅ Completed |
 | View Total Expense | ✅ Completed |
 | Expense History | ✅ Completed |
-| Expense Categories | ✅ Completed |
-| File Handling | 🔄 Planned |
+| File Handling | ✅ Completed |
 | Monthly Reports | 🔄 Planned |
 | Budget Tracking | 🔄 Planned |
+| Expense Analytics | 🔄 Planned |
 
 ---
 
@@ -93,20 +101,20 @@ Start Application
         ▼
 Display Menu
         │
- ┌──────┼────────┬─────────┐
- │      │        │         │
- ▼      ▼        ▼         ▼
-Add   Total   History   Categories
+ ┌──────┼────────┬──────────┬─────────┐
+ │      │        │          │         │
+ ▼      ▼        ▼          ▼         ▼
+Add   Total   History   Saved Data   Exit
 Expense Expense
  │
  ▼
 Store Data
  │
  ▼
-Display Results
+Save To File
  │
  ▼
-Exit
+Display Results
 ```
 
 ---
@@ -117,7 +125,8 @@ This project helps in understanding:
 
 - Data Storage using Arrays
 - String Handling
-- Menu Driven Programs
+- File Handling
+- Menu Driven Applications
 - Problem Solving
 - Software Development Workflow
 - Git & GitHub Project Management
@@ -128,21 +137,21 @@ This project helps in understanding:
 
 ### Version 2
 
-- Save Expenses to File
-- Load Previous Records
-- Persistent Storage
+- Monthly Expense Reports
+- Expense Statistics
+- Budget Tracking
 
 ### Version 3
 
-- Monthly Expense Reports
-- Expense Statistics
-- Budget Management
+- Search Expenses
+- Edit Expenses
+- Delete Expenses
 
 ### Version 4
 
 - Graphical User Interface (GUI)
 - Database Integration
-- User Authentication
+- User Authentication System
 
 ---
 
@@ -155,8 +164,8 @@ This project helps in understanding:
 💻 Interests:
 - Software Development
 - Data Structures & Algorithms
-- Problem Solving
 - Computer Science
+- Problem Solving
 
 ---
 
