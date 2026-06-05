@@ -12,11 +12,13 @@
 ## Technical Skills Development
 
 ### Programming Languages
+
 - C++
 - Python
 - JavaScript
 
 ### Core Computer Science
+
 - Data Structures & Algorithms
 - Database Management Systems
 - Operating Systems
@@ -24,6 +26,7 @@
 - Software Engineering
 
 ### Development Skills
+
 - Git & GitHub
 - Problem Solving
 - Project Development
@@ -33,45 +36,78 @@
 
 ## Current Projects
 
-### Expense Tracker
-Status: In Progress
+### 💰 Expense Tracker
 
-Features:
+Status: Active Development
+
+#### Completed Features
+
+- Basic Menu System
 - Add Expense
+- Expense Categories
 - View Total Expense
 - Expense History
-- Monthly Reports (Planned)
+- File Handling
+- Persistent Expense Storage
 
-### DSA Practice Repository
+#### Planned Features
+
+- Monthly Expense Reports
+- Search Expenses
+- Edit Expenses
+- Delete Expenses
+- Budget Tracking
+
+---
+
+### 📘 DSA Practice Repository
+
 Status: Active
 
-Topics Covered:
-- Searching Algorithms
-- Sorting Algorithms
+#### Completed
 
-Future Topics:
+- Linear Search
+- Binary Search
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+
+#### Upcoming
+
 - Linked Lists
 - Stack
 - Queue
 - Trees
 - Graphs
 
-### Python Practice Repository
+---
+
+### 🐍 Python Practice Repository
+
 Status: Active
 
-Focus Areas:
-- Python Fundamentals
-- Problem Solving
-- Mini Projects
+#### Completed
+
+- User Information Program
+- Even Odd Checker
+- Simple Calculator
+
+#### Upcoming
+
+- Number Guessing Game
+- Temperature Converter
+- Student Management System
 
 ---
 
 ## Competitive Programming Goals
 
 - Solve 50+ LeetCode Problems
-- Improve algorithmic thinking
-- Strengthen problem-solving skills
-- Build coding consistency
+- Improve problem-solving skills
+- Strengthen algorithmic thinking
+- Maintain coding consistency
 
 ---
 
@@ -79,8 +115,8 @@ Focus Areas:
 
 - Maintain active repositories
 - Build real-world projects
-- Document learning progress
-- Create a professional developer profile
+- Create professional documentation
+- Develop a strong technical portfolio
 
 ---
 
@@ -90,24 +126,23 @@ Focus Areas:
 - Student Management System
 - Library Management System
 - Algorithm Visualizer
-- Personal Finance Tracker
 
 ---
 
 ## Long-Term Goals
 
-- Build a strong technical portfolio
+- Build a strong software development portfolio
 - Pursue higher studies in Computer Science
-- Gain practical software development experience
-- Contribute to impactful technology solutions
+- Gain practical development experience
 - Study at a globally recognized university
+- Contribute to impactful technology solutions
 
 ---
 
 ## Current Focus
 
+- Expense Tracker Development
 - Data Structures & Algorithms
-- Python Programming
-- Expense Tracker Project
 - LeetCode Practice
+- Python Programming
 - Academic Improvement
