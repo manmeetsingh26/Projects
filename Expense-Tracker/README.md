@@ -1,8 +1,79 @@
 # Expense Tracker
 
-A simple project to track daily expenses, income, and savings.
+A C++ based Expense Tracker application designed to help users record expenses, monitor spending, and improve financial management skills.
 
-## Status
+---
+
+## Features
+
+### Current Features
+
+✅ Add Expense
+
+- Allows users to add expense amounts.
+- Validates input before storing data.
+
+✅ View Total Expense
+
+- Calculates and displays the total amount spent.
+
+✅ Expense History
+
+- Stores multiple expenses.
+- Displays all recorded expenses in a structured list.
+
+✅ Menu-Driven Interface
+
+- Easy-to-use console-based navigation.
+
+---
+
+## Technologies Used
+
+- C++
+- Arrays
+- Loops
+- Conditional Statements
+- Functions (Upcoming)
+- File Handling (Planned)
+
+---
+
+## Project Structure
+
+```text
+Expense-Tracker
+│
+├── main.cpp
+├── README.md
+└── ProjectPlan.md
+```
+
+---
+
+## Application Workflow
+
+```text
+Start Application
+        │
+        ▼
+Display Menu
+        │
+ ┌──────┼──────┐
+ │      │      │
+ ▼      ▼      ▼
+Add   View   View
+Expense Total History
+ │      │      │
+ └──────┼──────┘
+        │
+        ▼
+      Exit
+```
+
+---
+
+## Current Status
 
 ✅ Project Planning Completed
 
@@ -12,30 +83,46 @@ A simple project to track daily expenses, income, and savings.
 
 ✅ View Total Expense Feature Added
 
+✅ Expense History Feature Added
+
 🔄 Development In Progress
 
-## Current Features
+---
 
-### Add Expense
-Allows users to enter expense amounts.
+## Future Enhancements
 
-### View Total Expense
-Displays the total expenses entered during the session.
-
-### Exit Program
-Safely closes the application.
-
-## Future Improvements
+### Version 2
 
 - Expense Categories
-- Expense History
-- Monthly Reports
-- File Storage
-- Budget Tracking
+- Income Tracking
+- Balance Calculation
 
-## Technology
+### Version 3
 
-- C++
 - File Handling
+- Save Expenses Permanently
+- Load Previous Records
 
-Author: Manmeet Singh
+### Version 4
+
+- Monthly Reports
+- Budget Tracking
+- Expense Analytics
+
+---
+
+## Learning Objectives
+
+- Strengthen C++ programming skills
+- Practice problem-solving
+- Understand data storage concepts
+- Learn project development workflow
+- Build real-world software projects
+
+---
+
+## Author
+
+**Manmeet Singh**
+
+⭐ This project is part of my learning journey in software development and computer science.
