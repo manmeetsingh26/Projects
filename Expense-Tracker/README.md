@@ -1,45 +1,63 @@
-# Expense Tracker
+# 💰 Expense Tracker
 
-A C++ based Expense Tracker application designed to help users record expenses, monitor spending, and improve financial management skills.
+A C++ based Expense Tracker application developed to help users manage daily expenses, monitor spending habits, and improve financial awareness.
 
----
-
-## Features
-
-### Current Features
-
-✅ Add Expense
-
-- Allows users to add expense amounts.
-- Validates input before storing data.
-
-✅ View Total Expense
-
-- Calculates and displays the total amount spent.
-
-✅ Expense History
-
-- Stores multiple expenses.
-- Displays all recorded expenses in a structured list.
-
-✅ Menu-Driven Interface
-
-- Easy-to-use console-based navigation.
+This project is part of my software development learning journey and focuses on applying core programming concepts such as arrays, strings, loops, conditional statements, and data management.
 
 ---
 
-## Technologies Used
+## 🚀 Features
+
+### ✅ Add Expense
+
+- Record daily expenses quickly.
+- Input validation for positive amounts.
+
+### ✅ Expense Categories
+
+Users can categorize expenses into:
+
+- 🍔 Food
+- 🚗 Travel
+- 🛍 Shopping
+- 📦 Other
+
+### ✅ View Total Expense
+
+- Calculates the total amount spent.
+- Updates automatically whenever a new expense is added.
+
+### ✅ Expense History
+
+Displays all recorded expenses with their categories.
+
+Example:
+
+```text
+1. Rs. 500 - Food
+2. Rs. 300 - Travel
+3. Rs. 1200 - Shopping
+```
+
+### ✅ Menu Driven Interface
+
+Simple and user-friendly console interface.
+
+---
+
+## 🛠 Technologies Used
 
 - C++
 - Arrays
+- Strings
 - Loops
 - Conditional Statements
-- Functions (Upcoming)
-- File Handling (Planned)
+- Switch Case
+- Basic Data Management
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 Expense-Tracker
@@ -51,7 +69,23 @@ Expense-Tracker
 
 ---
 
-## Application Workflow
+## 📋 Current Progress
+
+| Feature | Status |
+|----------|----------|
+| Project Planning | ✅ Completed |
+| Basic Menu | ✅ Completed |
+| Add Expense | ✅ Completed |
+| View Total Expense | ✅ Completed |
+| Expense History | ✅ Completed |
+| Expense Categories | ✅ Completed |
+| File Handling | 🔄 Planned |
+| Monthly Reports | 🔄 Planned |
+| Budget Tracking | 🔄 Planned |
+
+---
+
+## 🔄 Application Workflow
 
 ```text
 Start Application
@@ -59,70 +93,71 @@ Start Application
         ▼
 Display Menu
         │
- ┌──────┼──────┐
- │      │      │
- ▼      ▼      ▼
-Add   View   View
-Expense Total History
- │      │      │
- └──────┼──────┘
-        │
-        ▼
-      Exit
+ ┌──────┼────────┬─────────┐
+ │      │        │         │
+ ▼      ▼        ▼         ▼
+Add   Total   History   Categories
+Expense Expense
+ │
+ ▼
+Store Data
+ │
+ ▼
+Display Results
+ │
+ ▼
+Exit
 ```
 
 ---
 
-## Current Status
+## 🎯 Learning Objectives
 
-✅ Project Planning Completed
+This project helps in understanding:
 
-✅ Basic Menu Created
-
-✅ Add Expense Feature Added
-
-✅ View Total Expense Feature Added
-
-✅ Expense History Feature Added
-
-🔄 Development In Progress
+- Data Storage using Arrays
+- String Handling
+- Menu Driven Programs
+- Problem Solving
+- Software Development Workflow
+- Git & GitHub Project Management
 
 ---
 
-## Future Enhancements
+## 🔮 Future Enhancements
 
 ### Version 2
 
-- Expense Categories
-- Income Tracking
-- Balance Calculation
+- Save Expenses to File
+- Load Previous Records
+- Persistent Storage
 
 ### Version 3
 
-- File Handling
-- Save Expenses Permanently
-- Load Previous Records
+- Monthly Expense Reports
+- Expense Statistics
+- Budget Management
 
 ### Version 4
 
-- Monthly Reports
-- Budget Tracking
-- Expense Analytics
+- Graphical User Interface (GUI)
+- Database Integration
+- User Authentication
 
 ---
 
-## Learning Objectives
-
-- Strengthen C++ programming skills
-- Practice problem-solving
-- Understand data storage concepts
-- Learn project development workflow
-- Build real-world software projects
-
----
-
-## Author
+## 👨‍💻 Author
 
 **Manmeet Singh**
 
-⭐ This project is part of my learning journey in software development and computer science.
+🎓 BCA Student — Chandigarh University
+
+💻 Interests:
+- Software Development
+- Data Structures & Algorithms
+- Problem Solving
+- Computer Science
+
+---
+
+⭐ This project represents my continuous journey of learning programming, building projects, and strengthening software development skills.
