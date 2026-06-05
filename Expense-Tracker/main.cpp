@@ -4,9 +4,11 @@ using namespace std;
 int main() {
     int choice;
     double expenses[100];
+    string categories[100];
     int expenseCount = 0;
     double totalExpense = 0;
     double amount;
+    string category;
 
     do {
         cout << "\n===== Expense Tracker =====\n";
@@ -24,7 +26,11 @@ int main() {
                     cin >> amount;
 
                     if (amount > 0) {
+                        cout << "Enter category (Food/Travel/Shopping/Other): ";
+                        cin >> category;
+
                         expenses[expenseCount] = amount;
+                        categories[expenseCount] = category;
                         expenseCount++;
                         totalExpense += amount;
 
@@ -47,7 +53,8 @@ int main() {
                 } else {
                     cout << "\n===== Expense History =====\n";
                     for (int i = 0; i < expenseCount; i++) {
-                        cout << i + 1 << ". Rs. " << expenses[i] << endl;
+                        cout << i + 1 << ". Rs. " << expenses[i]
+                             << " - " << categories[i] << endl;
                     }
                 }
                 break;
