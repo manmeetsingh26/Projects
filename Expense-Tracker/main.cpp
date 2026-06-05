@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 int main() {
@@ -15,12 +16,13 @@ int main() {
         cout << "1. Add Expense\n";
         cout << "2. View Total Expense\n";
         cout << "3. View Expense History\n";
-        cout << "4. Exit\n";
+        cout << "4. View Saved Expenses\n";
+        cout << "5. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
 
         switch (choice) {
-            case 1:
+            case 1: {
                 if (expenseCount < 100) {
                     cout << "Enter expense amount: Rs. ";
                     cin >> amount;
@@ -34,7 +36,11 @@ int main() {
                         expenseCount++;
                         totalExpense += amount;
 
-                        cout << "Expense added successfully.\n";
+                        ofstream file("expenses.txt", ios::app);
+                        file << amount << " " << category << endl;
+                        file.close();
+
+                        cout << "Expense added and saved successfully.\n";
                     } else {
                         cout << "Invalid amount. Please enter a positive value.\n";
                     }
@@ -42,6 +48,7 @@ int main() {
                     cout << "Expense limit reached.\n";
                 }
                 break;
+            }
 
             case 2:
                 cout << "Total Expense: Rs. " << totalExpense << endl;
@@ -49,9 +56,9 @@ int main() {
 
             case 3:
                 if (expenseCount == 0) {
-                    cout << "No expenses added yet.\n";
+                    cout << "No expenses added in this session.\n";
                 } else {
-                    cout << "\n===== Expense History =====\n";
+                    cout << "\n===== Expense History This Session =====\n";
                     for (int i = 0; i < expenseCount; i++) {
                         cout << i + 1 << ". Rs. " << expenses[i]
                              << " - " << categories[i] << endl;
@@ -59,7 +66,33 @@ int main() {
                 }
                 break;
 
-            case 4:
+            case 4: {
+                ifstream file("expenses.txt");
+                double savedAmount;
+                string savedCategory;
+                int count = 1;
+
+                cout << "\n===== Saved Expenses =====\n";
+
+                if (!file) {
+                    cout << "No saved expenses found.\n";
+                } else {
+                    while (file >> savedAmount >> savedCategory) {
+                        cout << count << ". Rs. " << savedAmount
+                             << " - " << savedCategory << endl;
+                        count++;
+                    }
+
+                    if (count == 1) {
+                        cout << "No saved expenses found.\n";
+                    }
+
+                    file.close();
+                }
+                break;
+            }
+
+            case 5:
                 cout << "Thank you for using Expense Tracker.\n";
                 break;
 
@@ -67,7 +100,7 @@ int main() {
                 cout << "Invalid choice. Please try again.\n";
         }
 
-    } while (choice != 4);
+    } while (choice != 5);
 
     return 0;
 }
