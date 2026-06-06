@@ -1,15 +1,15 @@
-# Computer Science & Higher Studies Roadmap
+# 🚀 Computer Science Development Roadmap
 
-## Academic Goals
+## 🎓 Academic Goals
 
-- Improve CGPA throughout the BCA program
+- Maintain strong academic performance in BCA
 - Strengthen Computer Science fundamentals
-- Build a strong academic profile
-- Prepare for higher studies in Computer Science
+- Build a competitive profile for higher studies
+- Improve technical and problem-solving skills
 
 ---
 
-## Technical Skills Development
+## 💻 Technical Skills Development
 
 ### Programming Languages
 
@@ -21,8 +21,8 @@
 
 - Data Structures & Algorithms
 - Database Management Systems
-- Operating Systems
 - Computer Networks
+- Operating Systems
 - Software Engineering
 
 ### Development Skills
@@ -34,37 +34,79 @@
 
 ---
 
-## Current Projects
+# 📂 Current Projects
 
-### 💰 Expense Tracker
+## 💰 Expense Tracker
 
-Status: Active Development
+### Status
+Active Development
 
-#### Completed Features
+### Completed Features
 
-- Basic Menu System
 - Add Expense
 - Expense Categories
 - View Total Expense
 - Expense History
 - File Handling
-- Persistent Expense Storage
+- Persistent Storage
 
-#### Planned Features
+### Upcoming Features
 
-- Monthly Expense Reports
-- Search Expenses
-- Edit Expenses
-- Delete Expenses
+- Monthly Reports
 - Budget Tracking
+- Expense Analytics
 
 ---
 
-### 📘 DSA Practice Repository
+## 🎓 Student Management System
 
-Status: Active
+### Status
+In Development
 
-#### Completed
+### Completed Features
+
+- Basic Menu System
+- Add Student
+- View Students
+- Search Student by Roll Number
+
+### Upcoming Features
+
+- Delete Student Record
+- Update Student Information
+- File Handling
+- Attendance Management
+- Marks Management
+- Student Report Generation
+
+---
+
+## 🌐 Portfolio Website
+
+### Status
+Live
+
+### Completed Features
+
+- Homepage
+- About Section
+- Skills Section
+- Projects Section
+- Contact Section
+- GitHub Pages Deployment
+
+### Upcoming Features
+
+- Resume Integration
+- Improved UI Design
+- Responsive Layout Enhancements
+- Dark Mode
+
+---
+
+# 📘 DSA Practice Repository
+
+### Completed
 
 - Linear Search
 - Binary Search
@@ -74,7 +116,7 @@ Status: Active
 - Merge Sort
 - Quick Sort
 
-#### Upcoming
+### Upcoming
 
 - Linked Lists
 - Stack
@@ -84,65 +126,37 @@ Status: Active
 
 ---
 
-### 🐍 Python Practice Repository
+# 🐍 Python Practice Repository
 
-Status: Active
-
-#### Completed
+### Completed
 
 - User Information Program
+- Calculator
 - Even Odd Checker
-- Simple Calculator
-
-#### Upcoming
-
 - Number Guessing Game
-- Temperature Converter
-- Student Management System
+
+### Upcoming
+
+- Grade Calculator
+- Password Generator
+- Student Management Utilities
 
 ---
 
-## Competitive Programming Goals
+# 🏆 Long-Term Goals
 
-- Solve 50+ LeetCode Problems
-- Improve problem-solving skills
-- Strengthen algorithmic thinking
-- Maintain coding consistency
-
----
-
-## GitHub Goals
-
-- Maintain active repositories
-- Build real-world projects
-- Create professional documentation
-- Develop a strong technical portfolio
-
----
-
-## Future Projects
-
-- Portfolio Website
-- Student Management System
-- Library Management System
-- Algorithm Visualizer
-
----
-
-## Long-Term Goals
-
-- Build a strong software development portfolio
+- Build a strong GitHub portfolio
+- Develop multiple real-world projects
+- Strengthen software development skills
 - Pursue higher studies in Computer Science
-- Gain practical development experience
 - Study at a globally recognized university
-- Contribute to impactful technology solutions
 
 ---
 
-## Current Focus
+# 🎯 Current Focus
 
-- Expense Tracker Development
+- Student Management System Development
 - Data Structures & Algorithms
+- Portfolio Enhancement
 - LeetCode Practice
-- Python Programming
 - Academic Improvement
